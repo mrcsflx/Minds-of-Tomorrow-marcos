@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url("./img/banner-2.jpg");
+    background-size: cover;
+    padding: 0 10%;
+    text-align: center;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+
+.columna1 {
+    float: left;
+    width: 100%;
+}
+
+.columna1 h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.columna2 {
+    float: left;
+    width: 50%;
+}
+
+.columna2 h1 {
+    font-size: 5vw;
+}
+
+.columna2 p {
+    font-size: 3vw;
+}
+
+.columna2 img {
+    width: 100%;
+}
+
+.columna4 {
+    float: left;
+    width: 25%;
+}
+
+.columna4 p {
+    text-align: center;
+}
+
+.columna4 img {
+    width: 100%;
+}
+
+#section-2 {
+    background-color: #28eca5;
+}
+
+#section-2 p {
+    font-size: 15px;
+}
+
+#section-5 {
+    background-color: #46a6fc;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer p {
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.padding-0 {
+    padding: 0;
+    margin-bottom: -3px;
+}
+
+.padding-lat {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.padding-tb {
+    padding: 50px 8%;
+}
+
+.padding-all {
+    padding: 3%;
+}
+
+.padding-izq {
+    padding-left: 20px;
+}
+
+.padding-der {
+    padding-right: 20px;
+}
+
+@media screen and (max-width:700px) {
+    .flex:not(#header) {
+        display: block;
+    }
+    .columna2 {
+        width: 100%;
+    }
+    .columna4 {
+        width: 50%;
+    }
+    .header {
+        padding: 0 4%;
+    }
+    .header h1 {
+        font-size: 60px;
+    }
+    .columna2 h1 {
+        font-size: 7vw;
+    }
+    .columna2 p {
+        font-size: 5vw;
+    }
+    .columna1 h1 {
+        font-size: 7vw;
+    }
+}
+  
