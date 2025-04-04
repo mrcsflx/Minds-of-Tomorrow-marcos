@@ -58,6 +58,7 @@ body {
 .columna4 {
     float: left;
     width: 25%;
+    justify-content: center;
 }
 
 .columna4 p {
@@ -65,11 +66,13 @@ body {
 }
 
 .columna4 img {
-    width: 100%;
+    width: 80%;
+    justify-content: center;
 }
 
 #section-2 {
     background-color: #28eca5;
+    justify-content: center;
 }
 
 #section-2 p {
@@ -106,7 +109,8 @@ body {
 }
 
 .padding-all {
-    padding: 3%;
+    justify-content: center;
+    /* padding: 3%; */
 }
 
 .padding-izq {
